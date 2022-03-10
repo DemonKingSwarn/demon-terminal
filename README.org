@@ -5,11 +5,11 @@
 
 ** Dependency
 
-- qtermwidget
+- [[https://github.com/lxqt/qtermwidget][qtermwidget]]
 
 ** Install by compiling
 
-#+BEGIN_SRC
+#+BEGIN_SRC sh
 g++ $(pkg-config --cflags --libs Qt5Widgets qtermwidget5) -fPIC -o dt demon-term.cpp
 cp dt /usr/local/bin/dt
 cp dt.desktop ~/.local/share/applications/dt.desktop
