@@ -1,0 +1,5 @@
+*
+!.gitignore
+!demon-term.cpp
+!README.org
+!dt.desktop
