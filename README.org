@@ -1,0 +1,14 @@
+* Demon Terminal
+
+** Dependency
+
+- qtermwidget
+
+** Install by compiling
+
+#+BEGIN_SRC
+g++ $(pkg-config --cflags --libs Qt5Widgets qtermwidget5) -fPIC -o dt demon-term.cpp
+cp dt /usr/local/bin/dt
+cp dt.desktop ~/.local/share/applications/dt.desktop
+#+END_SRC
+
