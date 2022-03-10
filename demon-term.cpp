@@ -13,6 +13,7 @@ int main(int argc, char *argv[]) {
 
   QFont font = QApplication::font();
   font.setFamily("Monospace");
+  //font.setFamily("NotoColorEmoji");
   font.setPointSize(15);
 
   console->setTerminalFont(font);
