@@ -12,6 +12,6 @@
 #+BEGIN_SRC sh
 g++ $(pkg-config --cflags --libs Qt5Widgets qtermwidget5) -fPIC -o dt demon-term.cpp
 cp dt /usr/local/bin/dt
-cp dt.desktop ~/.local/share/applications/dt.desktop
+cp dt.desktop /usr/local/share/applications/dt.desktop
 #+END_SRC
 
