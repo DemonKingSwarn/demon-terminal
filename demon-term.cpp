@@ -12,8 +12,8 @@ int main(int argc, char *argv[]) {
   QTermWidget *console = new QTermWidget();
 
   QFont font = QApplication::font();
-  font.setFamily("JetBrainsMono Nerd Font");
-  font.setPointSize(12);
+  font.setFamily("Monospace");
+  font.setPointSize(15);
 
   console->setTerminalFont(font);
 
@@ -21,9 +21,6 @@ int main(int argc, char *argv[]) {
   console->setColorScheme("Solarized");
 
   console->setTerminalOpacity(0.9);
-
-
-  console->setScrollBarPosition(QTermWidget::ScrollBarRight);
 
   mainWindow->resize(600, 400);
 
