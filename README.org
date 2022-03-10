@@ -1,6 +1,6 @@
 * Demon Terminal
 
-** NOTES
+** NOTE
    I made this project only to learn C++ and not for real shipping purposes!
 
 ** Dependency
