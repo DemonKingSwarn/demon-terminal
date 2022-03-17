@@ -15,3 +15,8 @@ cp dt /usr/local/bin/dt
 cp dt.desktop /usr/local/share/applications/dt.desktop
 #+END_SRC
 
+** Install from AUR
+
+#+BEGIN_SRC sh
+paru -S demon-terminal
+#+END_SRC
